@@ -55,7 +55,7 @@ The parser is generated from `src/ada.grammar` using the [`@lezer/generator`](ht
 
 ## Contributing
 
-Contributions are welcome! If you find a bug or want to improve Ada support, please open an issue or pull request on the [GitHub repository](https://github.com/yourusername/codemirror-lang-ada).
+Contributions are welcome! If you find a bug or want to improve Ada support, please open an issue or pull request on the [GitHub repository](https://github.com/CB-X2-Jun/codemirror-lang-ada).
 
 ## License
 
