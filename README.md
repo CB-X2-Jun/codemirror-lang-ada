@@ -25,10 +25,11 @@ import { EditorState } from "@codemirror/state"
 import { ada } from "codemirror-lang-ada"
 
 const state = EditorState.create({
-  doc: `procedure Hello is
+  doc: `with Ada.Text_IO;
+procedure Main is
 begin
-   Put_Line ("Hello, Ada!");
-end Hello;`,
+   Ada.Text_IO.Put_Line ("Hello, World!");
+end Main;`,
   extensions: [basicSetup, ada()]
 })
 

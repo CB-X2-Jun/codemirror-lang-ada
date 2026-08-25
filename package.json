@@ -1,6 +1,6 @@
 {
   "name": "codemirror-lang-ada",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ada language support for CodeMirror 6",
   "scripts": {
     "build": "lezer-generator src/ada.grammar -o src/parser.ts && rollup -c",
@@ -30,15 +30,16 @@
   "dependencies": {
     "@codemirror/language": "^6.10.0",
     "@lezer/highlight": "^1.2.0",
-    "@lezer/lr": "^1.4.0"
+    "@lezer/lr": "^1.4.0",
+    "codemirror-lang-ada": "^0.1.0"
   },
   "devDependencies": {
-    "@lezer/generator": "^1.7.0",
     "@lezer/common": "^1.2.0",
+    "@lezer/generator": "^1.7.0",
     "@rollup/plugin-node-resolve": "^15.2.0",
+    "@rollup/plugin-typescript": "^11.1.6",
     "mocha": "^10.4.0",
     "rollup": "^4.17.0",
-    "@rollup/plugin-typescript": "^11.1.6",
     "rollup-plugin-dts": "^6.1.0",
     "tslib": "^2.6.2",
     "typescript": "^5.4.0"
