@@ -56,14 +56,14 @@
     "highlighting",
     "lezer"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "CB-X2-Jun <cbx2jun@cc.cc>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/codemirror-lang-ada.git"
+    "url": "https://github.com/CB-X2-Jun/codemirror-lang-ada.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/codemirror-lang-ada/issues"
+    "url": "https://github.com/CB-X2-Jun/codemirror-lang-ada/issues"
   },
-  "homepage": "https://github.com/yourusername/codemirror-lang-ada#readme"
+  "homepage": "https://github.com/CB-X2-Jun/codemirror-lang-ada#readme"
 }
